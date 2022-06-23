@@ -38,7 +38,7 @@ products.addEventListener("click", (event) => {
 )
 
 function ProductTotal( price, productCount, parentDiv) {
-    parentDiv.parentElement.lastElementChild.innerText == productCount * price;
+    parentDiv.parentElement.lastElementChild.innerText = (productCount * price).toFixed(2);
 
     Total()
 }

@@ -122,10 +122,10 @@ main {
   
   #product-painel {
     position: absolute;
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     background-color: #eeeeee;
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
     display: flex;
     flex-wrap: wrap;
   }
